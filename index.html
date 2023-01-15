@@ -8,12 +8,9 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-PZXGNVRB6B');
-        // Set the User ID
-          ga('set', 'user_id', 'Amine');
-
-          // Send the pageview hit
-          ga('send', 'pageview');
+        gtag('config', 'G-PZXGNVRB6B', {
+          'user_id': 'user123'
+        });
 
       </script>
     <meta charset="utf-8">
